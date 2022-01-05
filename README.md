@@ -1,2 +1,2 @@
-# MiniMax littleGo
-This repository shows how the little go game can be implemented using the minimax algorithm. The rules of little Go can be found online, and this program takes an input and produces an output of the perfect move. 
+# MiniMax on LittleGo
+This repository shows how the little go game can be implemented using the minimax algorithm. The rules of little Go can be found online, and this program takes an input and produces an output of the perfect move. You can see in the code that the algorithm traverses through each available board piece and assigns it a given score based on the rules of the game. With the assigned scores, I also implemented alpa/beta pruning on my minimax algorithm. You recieve an input like the example one that displays the board, and the output is the move the given player in the input file should play.
